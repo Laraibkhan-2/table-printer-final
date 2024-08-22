@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body {
+    background-image: url(/2\ bg\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1d6b65;
+  }
+
+  .container {
+    background-color: #136e6e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #020101;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(224, 207, 180);
+  }
+
+  button {
+    background-color:  #0d5858;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-color: black;
+  }
+
+  button:hover {
+    background-color:  #0c4646;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  th {
+    background-color: #ffffff;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+        max-width: 300px;
+    }
+    input[type="number"] {
+        padding: 5px;
+    }
+    button {
+        padding: 5px 10px;
+    }
+}
+
+ @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 25px;
+        max-width: 400px;
+    }
+    input[type="number"] {
+        padding: 7px;
+    }
+    button {
+        padding: 7px 14px;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .container {
+        padding: 30px;
+        max-width: 500px;
+    }
+    input[type="number"] {
+        padding: 10px;
+    }
+    button {
+        padding: 10px 20px;
+    }
+}
+
