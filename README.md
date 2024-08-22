@@ -1,5 +1,5 @@
-math table printer.
+Math table printer.
 <br>
 My first JS project.
 <br>
-author "laraib khan"
+Author "laraib khan"
